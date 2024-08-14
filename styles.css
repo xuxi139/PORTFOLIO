@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: rgb(48, 44, 69);
+  background-color: darkgray;
+  height: 100vh;
+}
+
+header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #302c45;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: #302c45 2px solid;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.content {
+  background-color: white;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #302c45;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+.bottom {
+  color: #302c45;
+  background-color: whitesmoke;
+  height: 75%;
+}
+.contact-form {
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #302c45;
+}
+
+.contact-form p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.contact-form input {
+  display: inline-block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: #302c45 1px solid;
+}
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: #302c45 1px solid;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: center;
+  color: darkgray;
+  background-color: #302c45;
+}
+
+footer {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #302c45;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
